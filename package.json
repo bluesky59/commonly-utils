@@ -6,9 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bluesky59/commonly-utils.git"
+  },
   "keywords": [
     "unitls"
   ],
   "author": "maqin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
 }
