@@ -37,8 +37,9 @@
     npm install common-utils
 
 #### 引入
-    
+    const utilColl = require('common-utils');
 
 #### 使用
+    utilsColl.utils.arrFlat([3,2,1, [4,5,6]], 2);  // 数组扁平化
 
-#### 详情参考：git@github.com:bluesky59/commonly-utils.git
+#### 详情参考：https://github.com/bluesky59/commonly-utils
